@@ -89,7 +89,7 @@ nejlépe pole, ve kterém budou zanesené objekty.
 nejdřív předělám na pole  HOTOVO
 pak zefektivním úpravy na hodnotách (4) HOTOVO
 pak dodám zastavení pro vyplnění prázdného formuláře (1) HOTOVO
-a jako poslední dodám edge cases (2,3)
+a jako poslední dodám edge cases (2,3) HOTOVO
 
 toto bude provedeno v du1EXtended souboru
 */
