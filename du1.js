@@ -1,5 +1,5 @@
 /* Ahoj, toto je můj kód. Musím se přiznat, používala jsem stackOverFlow a ptala se Chatu, doufám ale, že skrze můj kód a hlavně poznámky uvidíte, 
-že jsem je používala k tomu, abych si zkusila věci, na které bych jinak nenarazila. */
+že jsem je používala k tomu, abych si zkusila věci, na které bych jinak nenarazila/nepřišla. */
 
 const firstName = prompt("zadej jméno", "Jana");
 const lastName = prompt("zadej příjmení", "Procházková");
@@ -93,4 +93,7 @@ pak zefektivním úpravy na hodnotách (4)
 pak dodám zastavení pro vyplnění prázdného formuláře (1)
 a jako poslední dodám edge cases (2,3)
 
+
 */
+
+
