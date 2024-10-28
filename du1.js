@@ -30,8 +30,6 @@ zavolaná o řád výš by nereagovala*/
 console.log(userNoDiacritics);
 
 
-
-
 Object.keys(userNoDiacritics).forEach(k => userNoDiacritics[k] = userNoDiacritics[k].toLowerCase().trim().replace(/\s+/g, ''));
 
 /* s .trim vezmu všechna bílá místa na začátku a konci každého str v objektu, kdybych ale chtěla odstranit všechny možné mezery, musím použít .replace:
@@ -88,12 +86,12 @@ nejsou zkontrolovány speciální znaky, čísla nebo jiné nepovolené znaky v 
 + v půlce kódu mi došlo, že samotný objekt asi není úplně nejlepší řešení pro větší množství uživatelů vyplňující formulář. Má to tedy být
 nejlépe pole, ve kterém budou zanesené objekty. 
 
-nejdřív předělám na pole
-pak zefektivním úpravy na hodnotách (4)
-pak dodám zastavení pro vyplnění prázdného formuláře (1)
+nejdřív předělám na pole  HOTOVO
+pak zefektivním úpravy na hodnotách (4) HOTOVO
+pak dodám zastavení pro vyplnění prázdného formuláře (1) HOTOVO
 a jako poslední dodám edge cases (2,3)
 
-
+toto bude provedeno v du1EXtended souboru
 */
 
 
