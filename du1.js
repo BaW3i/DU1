@@ -70,8 +70,7 @@ const firstName3Symbols = userNoDiacritics.firstName.slice(0, 3);
 const lastName5Symbols = userNoDiacritics.lastName.slice(0, 5); 
 
 console.log(`${firstName3Symbols}${lastName5Symbols}@fit.cvut.cz`)
-
-
+document.body.innerHTML += `<p>Váš nový email je: ${firstName3Symbols}${lastName5Symbols}@fit.cvut.cz</p>`;
 
 /* ChatGPT mi vyčetl, že: 
 
