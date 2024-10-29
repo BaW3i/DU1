@@ -35,6 +35,12 @@ kód se zastavuje díky return null povelu, který prostě ukončuje nebo zastav
 
     return { updatedFirstName, updatedLastName }; 
 };
+/* dalo by se nahradit funkcí 
+
+const updatedFirstName = firstName.padEnd(3, 'a');
+    const updatedLastName = lastName.padEnd(5, 'b');
+
+    */ 
 
 const checkSymbols = (firstName, lastName) => {
     const specialCharPattern = /[0-9!@#$%^&*(),.?":{}|<>_]/; 

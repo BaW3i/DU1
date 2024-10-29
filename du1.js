@@ -72,6 +72,7 @@ const lastName5Symbols = userNoDiacritics.lastName.slice(0, 5);
 console.log(`${firstName3Symbols}${lastName5Symbols}@fit.cvut.cz`)
 
 
+
 /* ChatGPT mi vyčetl, že: 
 
 1.Kód nepředpokládá možnost, že uživatel zadá prázdný řetězec nebo vstup obsahující pouze mezery. 
